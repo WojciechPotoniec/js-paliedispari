@@ -7,7 +7,6 @@ let word = prompt("Inserisci una parola");
 function palindromcheck(string) {
   if (string.toLowerCase().split("").reverse().join("") === string) {
     return true;
-    console.log("è palindroma");
   }
 }
 let risultato = palindromcheck(word.toLowerCase());
